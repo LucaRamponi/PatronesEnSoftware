@@ -1,5 +1,5 @@
-# PatronesCreacionales
-Presentaciones, ejemplos y recursos para una introducción a patrones creacionales.
+# PatronesDeDiseño
+Presentaciones, ejemplos y recursos para una introducción a patrones de diseño.
 Algunas paginas para leer:
 
 
