@@ -3,11 +3,11 @@ package BridgePattern.SinPatron;
 class Circulo implements Forma {
     @Override
     public void dibujarEnWindows() {
-        // Drawing code for a circle on Windows
+        // Codigo necesario para que el programa funcione en windows, luego que dibuje un Círculo
     }
 
     @Override
     public void dibujarEnLinux() {
-        // Drawing code for a circle on Linux
+        // Codigo necesario para que el programa funcione en Linux, luego que dibuje un Círculo
     }
 }

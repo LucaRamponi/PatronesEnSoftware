@@ -1,8 +1,8 @@
 package FactoryPattern.ConPatronDeDiseño;
 
-public class HamburguesaClasica implements HamburguesaGenerica{
+public class HamburguesaClasica implements HamburguesaBase {
     @Override
     public void preparar(){
-        //Preparo una hamburguesa clasica
+        System.out.println("Creo una hamburguesa clasica");
     }
 }

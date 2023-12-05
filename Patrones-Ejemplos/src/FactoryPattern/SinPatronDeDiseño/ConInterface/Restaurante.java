@@ -1,8 +1,8 @@
 package FactoryPattern.SinPatronDeDiseño.ConInterface;
 
 public class Restaurante {
-    public HamburguesaGenerica prepararHamburguesa(String pedido){
-        HamburguesaGenerica hamburguesa = null;
+    public HamburguesaBase prepararHamburguesa(String pedido){
+        HamburguesaBase hamburguesa = null;
 
         if (pedido == "Clasica"){
             hamburguesa = new HamburguesaClasica();
@@ -11,7 +11,6 @@ public class Restaurante {
             hamburguesa = new HamburguesaDePollo();
             hamburguesa.preparar();
         }
-
         return hamburguesa;
     }
 }

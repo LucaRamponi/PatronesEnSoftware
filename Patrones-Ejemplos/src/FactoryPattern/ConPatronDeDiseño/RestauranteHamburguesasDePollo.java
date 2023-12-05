@@ -2,7 +2,7 @@ package FactoryPattern.ConPatronDeDiseño;
 
 public class RestauranteHamburguesasDePollo extends Restaurante{
     @Override
-    public HamburguesaGenerica crearHamburguesa(){
+    public HamburguesaBase crearHamburguesa(){
         return new HamburguesaDePollo();
     }
 }

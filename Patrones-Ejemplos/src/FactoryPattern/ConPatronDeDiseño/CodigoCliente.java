@@ -8,7 +8,7 @@ public class CodigoCliente {
         Restaurante restauranteDeHamburguesasClasicas = new RestauranteHamburguesasClasicas();
 
         //Sirviendo las hamburguesas
-        HamburguesaGenerica hamburguesaDePollo = restauranteHamburguesasDePollo.PedirHamburguesa();
-        HamburguesaGenerica hamburguesaClasica = restauranteDeHamburguesasClasicas.PedirHamburguesa();
+        HamburguesaBase hamburguesaDePollo = restauranteHamburguesasDePollo.PedirHamburguesa();
+        HamburguesaBase hamburguesaClasica = restauranteDeHamburguesasClasicas.PedirHamburguesa();
     }
 }

@@ -3,11 +3,11 @@ package BridgePattern.SinPatron;
 class Cuadrado implements Forma {
     @Override
     public void dibujarEnWindows() {
-        // Drawing code for a square on Windows
+        // Codigo necesario para que el programa funcione en windows, luego que dibuje un cuadrado
     }
 
     @Override
     public void dibujarEnLinux() {
-        // Drawing code for a square on Linux
+        // Codigo necesario para que el programa funcione en Linux, luego que dibuje un cuadrado
     }
 }
